@@ -1,0 +1,69 @@
+Idee: Parkour Environment Blockout Generator
+
+Ein Unreal Engine Editor-Plugin, das Leveldesign für Parkour-Gameplay radikal vereinfacht.
+
+Der Designer muss nur drei Dinge festlegen:
+
+die Größe und Form des Spielbereichs
+– standardmäßig ein Würfel, der frei deformiert werden kann (z.B. L-Form, U-Form, custom Shape)
+
+einen Pfad
+– als einzelne Linie/Spline, die frei im Editor gezogen und in Höhe und Richtung angepasst wird
+
+zwei Gameplay-Parameter
+– maximale Sprunghöhe
+– maximale Sprungdistanz
+
+Mit diesen minimalen Eingaben generiert das Plugin automatisch einen kompletten spielbaren Parkour-Blockout:
+
+• Plattformen entlang des Pfads
+• korrekte Abstände und Höhen für gültige Sprünge
+• automatische Zwischenplattformen, wenn Sprünge zu weit/zu hoch wären
+• grundlegende Stadt- oder Industrie-Massen um den Pfad herum, um den Raum zu füllen
+• klare, saubere Blockout-Geometrie
+
+Der Leveldesigner muss danach nur noch Details ergänzen.
+
+Ziel des Plugins
+
+Ein Tool, das:
+
+• spielbare Parkour-Level in Minuten erzeugt
+• die gesamte Traversal-Logik automatisch validiert
+• als Basis für Leveldesigner dient, um darauf aufzubauen
+
+Kein vollständiger City-Generator, kein automatisches Szenendetail.
+Der Fokus liegt ausschließlich auf:
+
+spielbarer Parkour-Flow entlang eines definierten Pfads.
+
+Kernprinzip
+
+Path → validate jumps → generate platforms → fill environment
+
+USP (Unique Selling Point)
+
+Der Designer kontrolliert nur:
+
+• Raum
+• Route
+• Sprungfähigkeit
+
+Alles andere entsteht automatisch.
+
+Damit wird das Plugin zu einem „Parkour Layout Generator“ bzw. „Blockout Copilot“ für Leveldesigner, besonders geeignet für:
+
+• Third-Person Action
+• FPS Traversal
+• Movement-Shooter
+• Parkour-Games
+• Prototyping
+
+Output
+
+Nach der Generierung steht ein vollständiges Blockout-Level, das:
+
+• spielbar ist
+• einen klaren Flow hat
+• Sprünge garantiert erlaubt
+• visuell strukturiert ist
